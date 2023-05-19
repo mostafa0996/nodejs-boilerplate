@@ -13,7 +13,7 @@ const db = {};
 
 config.username = process.env.SQL_DB_USER_NAME || "root";
 config.password = process.env.SQL_DB_USER_PASSWORD || "12345678";
-config.database = process.env.SQL_DB_NAME || "local-eng";
+config.database = process.env.SQL_DB_NAME || "local";
 config.host = process.env.SQL_DB_HOST || "127.0.0.1";
 // config.define = {
 //   charset: 'utf8',
